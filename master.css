@@ -1659,13 +1659,13 @@ li.layer:nth-child(11) a {
 
   .wrapper {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     position: relative;
     z-index: 2;
   }
 
   .sectionTecno {
-    margin-top: 180px;
+    margin-top: 0px;
   }
 
   .nubes {
@@ -1828,7 +1828,7 @@ li.layer:nth-child(11) a {
   .linkC {
     width: 300px;
     z-index: 2;
-    margin-top: 100%;
+    margin-top: 66%;
     position: absolute;
     left: 12%;
   }
@@ -1927,7 +1927,7 @@ li.layer:nth-child(11) a {
   }
 
   #sct {
-    height: 820px;
+    height: 640px;
     padding-top: 0px;
   }
 
@@ -1959,21 +1959,13 @@ li.layer:nth-child(11) a {
     width: 260px;
     right: 8%;
     z-index: -1;
-    margin-top: 280px;
+    margin-top: 0px;
     position: absolute;
   }
 
   .lupa {
-    margin-top: 740px;
+    margin-top: 520px;
     width: 240px;
-    right: -40px;
-    z-index: 8;
-    position: absolute;
-  }
-
-  .lupa {
-    margin-top: 740px;
-    width: 220px;
     right: -40px;
     z-index: 8;
     position: absolute;
@@ -1981,7 +1973,7 @@ li.layer:nth-child(11) a {
 
   .anteojos {
     position: absolute;
-    margin-top: 220px;
+    margin-top: 0px;
     left: 0px;
     width: 220px;
   }
@@ -1991,8 +1983,7 @@ li.layer:nth-child(11) a {
     position: absolute;
     right: -20px;
     width: 200px;
-    margin-top: 200px;
-    margin-top: 280px;
+    margin-top: 80px;
   }
 
   .lapicero {
@@ -2007,6 +1998,10 @@ li.layer:nth-child(11) a {
     /* height: 280px; */
     margin-left: 8%;
     position: absolute;
+  }
+
+  .textEd {
+    margin-top: 230px;
   }
 
   /* //transparencia// */
@@ -2193,7 +2188,18 @@ li.layer:nth-child(11) a {
     font-size: 18px;
   }
 
+  .sectionEquipo {
+    height: 800px !important;
+  }
+
   .divF {
     padding-top: 60px;
+  }
+
+  .clip {
+    position: absolute;
+    margin-top: 40%;
+    left: 4%;
+    width: 120px;
   }
 }
