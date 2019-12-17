@@ -146,7 +146,7 @@ if (!isMobile) {
 //animation png
 var myIndex = 0;
 
-setTimeout(carousel, 0);
+setTimeout(carousel, 40);
 
 function carousel() {
   var i;
@@ -154,12 +154,12 @@ function carousel() {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  if (myIndex < 31) {
+  if (myIndex < 34) {
     myIndex++;
   }
   x[myIndex].style.display = "block";
   // x[14].style.display = "block";
-  setTimeout(carousel, 0);
+  setTimeout(carousel, 40);
   // Change image every 2 seconds
 }
 
