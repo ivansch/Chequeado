@@ -1329,9 +1329,11 @@ li.layer:nth-child(11) a {
 .sectionTecno {
   margin-top: 400px;
 }
+
 .sectionTrans {
   margin-top: -200px;
 }
+
 .fondos01 {
   z-index: 2;
   height: 310px;
@@ -1646,13 +1648,17 @@ li.layer:nth-child(11) a {
 
   #sectionEquipo {
     padding-top: 400px;
-    height: 1186px !important;
+    height: 1186px;
   }
 }
 
 @media (max-width:480px) {
   #container {
     display: none;
+  }
+
+  .sectionTransp {
+    margin-top: 0%;
   }
 
   #bk-m {
@@ -1830,7 +1836,7 @@ li.layer:nth-child(11) a {
   .linkC {
     width: 300px;
     z-index: 2;
-    margin-top: 66%;
+    margin-top: 246px;
     position: absolute;
     left: 12%;
   }
@@ -1891,6 +1897,7 @@ li.layer:nth-child(11) a {
   .elem1 {
     position: absolute;
     right: 6%;
+    margin-top: 60px;
     width: 240px;
   }
 
@@ -1899,10 +1906,10 @@ li.layer:nth-child(11) a {
   }
 
   .mySlides {
-    width: 230%;
+    width: 200%;
     height: 460px;
     margin-top: 20%;
-    margin-left: -60%;
+    margin-left: -50%;
   }
 
   .fondos02 {
@@ -1918,7 +1925,7 @@ li.layer:nth-child(11) a {
   }
 
   .section2 {
-    margin-top: 100px;
+    margin-top: 0px;
     padding-top: 0px;
   }
 
@@ -1939,7 +1946,7 @@ li.layer:nth-child(11) a {
     height: 360px;
     margin-top: 0px;
     right: 0px;
-    width: 320px;
+    width: 340px;
     position: absolute;
   }
 
@@ -1954,6 +1961,7 @@ li.layer:nth-child(11) a {
   }
 
   .sectionEd {
+    margin-bottom: 220px;
     margin-top: 0px;
   }
 
@@ -1961,7 +1969,7 @@ li.layer:nth-child(11) a {
     width: 260px;
     right: 8%;
     z-index: -1;
-    margin-top: 0px;
+    margin-top: 46px;
     position: absolute;
   }
 
@@ -2192,6 +2200,7 @@ li.layer:nth-child(11) a {
 
   #sectionEquipo {
     height: 800px;
+    padding-top: 0px;
   }
 
   .divF {
