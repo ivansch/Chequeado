@@ -1633,6 +1633,7 @@ li.layer:nth-child(11) a {
     filter 10s 2s ease-out;
   will-change: transform;
 }
+
 @media (max-width:1380px) {
   .wrapper {
     width: 100%;
@@ -1640,11 +1641,13 @@ li.layer:nth-child(11) a {
     position: relative;
     z-index: 2;
   }
+
   .sectionEquipo {
     padding-top: 400px;
     height: 1120px !important;
   }
 }
+
 @media (max-width:480px) {
   #container {
     display: none;
@@ -1818,7 +1821,7 @@ li.layer:nth-child(11) a {
     z-index: 5;
     width: auto;
     position: absolute;
-    margin-left: 16%;
+    left: 60px;
     margin-top: 56%;
   }
 
@@ -1862,7 +1865,7 @@ li.layer:nth-child(11) a {
   .divTextecno {
     z-index: 5;
     width: 70%;
-    left: 240px;
+    left: 60px;
     position: absolute;
     margin-top: 12%;
   }
@@ -1940,9 +1943,11 @@ li.layer:nth-child(11) a {
 
   .divTextEd {
     z-index: 4;
+    right: 0px;
+    left: 100px;
     width: 82%;
     position: absolute;
-    margin-left: 26%;
+    margin-left: 0%;
     margin-top: 48px;
   }
 
@@ -2175,7 +2180,7 @@ li.layer:nth-child(11) a {
     color: white;
     line-height: 28px;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .pCred {
@@ -2185,7 +2190,7 @@ li.layer:nth-child(11) a {
     color: white;
     line-height: 28px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .divF {
