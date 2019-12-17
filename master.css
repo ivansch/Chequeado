@@ -354,7 +354,7 @@ body {
 
 .divTextDos {
   z-index: 5;
-  width: 200px;
+  width: 220px;
   position: absolute;
   left: 260px;
   margin-top: -16px;
@@ -522,7 +522,7 @@ body {
 }
 
 #sct {
-  height: 2020px;
+  height: 1860px;
   padding: 0px;
   padding-top: -40px;
 }
@@ -828,8 +828,8 @@ body {
 }
 
 .sectionEquipo {
-  padding-top: 200px;
-  height: 1320px !important;
+  padding-top: 400px;
+  height: 1200px !important;
 }
 
 .taza {
@@ -892,7 +892,7 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 102vw;
+  height: 120vw;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
