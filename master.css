@@ -697,7 +697,7 @@ body {
 }
 
 .sectionEd {
-  margin-top: 0px;
+  margin-top: -300px;
 }
 
 .adn1 {
@@ -758,7 +758,7 @@ body {
 }
 
 .section2 {
-  padding-top: 600px;
+  padding-top: 800px;
 }
 
 .headC {
@@ -828,8 +828,8 @@ body {
 }
 
 .sectionEquipo {
-  padding-top: 400px;
-  height: 1200px !important;
+  padding-top: 0px;
+  height: 800px;
 }
 
 .taza {
@@ -885,7 +885,7 @@ body {
   width: 500px;
   right: 28%;
   z-index: -3;
-  margin-top: 36vw;
+  margin-top: 32vw;
   cursor: pointer;
   position: absolute;
 }
@@ -1327,10 +1327,10 @@ li.layer:nth-child(11) a {
 }
 
 .sectionTecno {
-  margin-top: 500px;
+  margin-top: 300px;
 }
 .sectionTrans {
-  margin-top: 300px;
+  margin-top: -200px;
 }
 .fondos01 {
   z-index: 2;
@@ -1643,12 +1643,10 @@ li.layer:nth-child(11) a {
     position: relative;
     z-index: 2;
   }
-.sectionTecno {
-  margin-top: 600px;
-}
+
   .sectionEquipo {
     padding-top: 400px;
-    height: 1120px !important;
+    height: 1186px !important;
   }
 }
 
