@@ -697,7 +697,7 @@ body {
 }
 
 .sectionEd {
-  margin-top: -300px;
+  margin-top: -500px;
 }
 
 .adn1 {
@@ -827,7 +827,7 @@ body {
   left: 26%;
 }
 
-.sectionEquipo {
+#sectionEquipo {
   padding-top: 0px;
   height: 800px;
 }
@@ -1644,7 +1644,7 @@ li.layer:nth-child(11) a {
     z-index: 2;
   }
 
-  .sectionEquipo {
+  #sectionEquipo {
     padding-top: 400px;
     height: 1186px !important;
   }
@@ -2190,8 +2190,8 @@ li.layer:nth-child(11) a {
     font-size: 18px;
   }
 
-  .sectionEquipo {
-    height: 800px !important;
+  #sectionEquipo {
+    height: 800px;
   }
 
   .divF {
