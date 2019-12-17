@@ -1327,9 +1327,11 @@ li.layer:nth-child(11) a {
 }
 
 .sectionTecno {
-  margin-top: 680px;
+  margin-top: 500px;
 }
-
+.sectionTrans {
+  margin-top: 300px;
+}
 .fondos01 {
   z-index: 2;
   height: 310px;
@@ -1641,7 +1643,9 @@ li.layer:nth-child(11) a {
     position: relative;
     z-index: 2;
   }
-
+.sectionTecno {
+  margin-top: 600px;
+}
   .sectionEquipo {
     padding-top: 400px;
     height: 1120px !important;
