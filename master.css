@@ -101,7 +101,7 @@ img {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .hamburger {
@@ -222,19 +222,6 @@ body {
   margin-top: -427.398px;
   left: 24.6184%;
   margin-left: -233.874px;
-}
-
-.modal-content {
-  position: relative;
-  background-color: inherit;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  border: 0px !important;
-  background-color: inherit !important;
-  border-radius: 6px;
-  outline: 0 !important;
-  -webkit-box-shadow: 0px !important;
-  box-shadow: 0px !important;
 }
 
 .parallax2 {
@@ -391,6 +378,8 @@ body {
 .boldT {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  color: black !important;
+  list-style: none !important;
 }
 
 .tit {
@@ -721,10 +710,10 @@ body {
 }
 
 .adn4 {
-    position: absolute;
-    left: -70px;
-    width: 440px;
-    margin-top: 0%;
+  position: absolute;
+  left: -70px;
+  width: 440px;
+  margin-top: 0%;
 }
 
 .cel1 {
@@ -869,7 +858,7 @@ body {
 
 .laptop {
   position: absolute;
-  margin-top: -40px;
+  margin-top: 0px;
   left: 20%;
   width: 260px;
 }
@@ -1387,7 +1376,7 @@ li.layer:nth-child(11) a {
 }
 
 .divTextTran {
-  z-index: 4;
+  z-index: 10;
   width: 260px;
   position: absolute;
   margin-left: 62%;
@@ -1637,6 +1626,31 @@ li.layer:nth-child(11) a {
     filter 10s 2s ease-out;
   will-change: transform;
 }
+
+#modal-dialog {
+  padding-top: 10px;
+  max-width: 90% !important;
+  margin: 0 auto !important;
+}
+
+#modal-content {
+  background-color: inherit !important;
+  height: auto;
+  border: 0px !important;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal-header {
+  border: 0px !important;
+  background-color: inherit !important;
+}
+
+.ifr {
+  width: 100%;
+  height: 560px;
+}
+
 @media (max-width:1980px) {
   .wrapper {
     width: 100%;
@@ -1718,16 +1732,19 @@ li.layer:nth-child(11) a {
     margin-top: 70%;
   }
 
+  .ifr {
+    width: 100%;
+    height: 360px;
+  }
+
   .divTextTran {
-    z-index: 4;
+    z-index: 10;
     width: 74%;
     position: absolute;
     margin-left: 11%;
     margin-top: 33%;
   }
-}
 
-@media (max-width:420px) {
   #container {
     display: none;
   }
@@ -1749,6 +1766,592 @@ li.layer:nth-child(11) a {
 
   .sectionTecno {
     margin-top: 0px;
+    height: 900px;
+  }
+
+  .nubes {
+    margin-top: 18%;
+    width: 340px;
+    left: 0px;
+    /* right: 7%; */
+    position: absolute;
+  }
+
+  /* //desinformacion// */
+  .tv {
+    filter: blur(2px);
+    left: 0px;
+    position: initial;
+    margin-top: 0px;
+    z-index: 3;
+    display: none;
+    width: 280px;
+  }
+
+  .revis02 {
+    display: none;
+  }
+
+  .fondo01 {
+    z-index: 2;
+    height: 310px;
+    margin-top: 30%;
+    left: 0%;
+    width: 340px;
+    position: absolute;
+  }
+
+  .reverso {
+    width: 140px;
+    right: 34px;
+    opacity: 1;
+    z-index: 5;
+    margin-top: 94%;
+    position: absolute;
+    margin-left: 0%;
+  }
+
+  .pez {
+    z-index: 1;
+    position: absolute;
+    margin-top: 60vw;
+    width: 280px;
+    left: -150px;
+  }
+
+  .divText {
+    z-index: 4;
+    width: 84%;
+    left: 10px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 40%;
+  }
+
+  .radios {
+    width: 220px;
+    /* margin-left: 0%; */
+    margin-top: 128vw;
+  }
+
+  .diario {
+    display: none;
+  }
+
+  .tit {
+    font-size: 28px;
+  }
+
+  .diario2 {
+    position: absolute;
+    width: 300px;
+    left: -50%;
+    margin-top: -32%;
+  }
+
+  .pText {
+    line-height: 16px;
+    font-size: 12px;
+    padding-right: 125px;
+  }
+
+  .pText2 {
+    line-height: 18px;
+    font-size: 12px;
+    padding-right: 46px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .link {
+    width: 280px;
+    z-index: 4;
+    margin-top: 110%;
+    position: absolute;
+    margin-left: 8%;
+    cursor: pointer;
+  }
+
+  .fondo02 {
+    z-index: 3;
+    width: 210px;
+    margin-top: 24%;
+    /* height: 280px; */
+    margin-left: 0%;
+    position: absolute;
+  }
+
+  .megafono {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0%;
+    z-index: 4;
+    right: 0px;
+    position: absolute;
+    width: 180px;
+  }
+
+  /* //comunidad// */
+  .rompeTres {
+    width: 320px;
+    z-index: 8;
+    margin-top: 136vw;
+    position: absolute;
+    left: -18%;
+  }
+
+  .fondosComuni {
+    z-index: 2;
+    height: 310px;
+    margin-top: 150px;
+    left: 0%;
+    width: 360px;
+    position: absolute;
+  }
+
+  .rompeUno {
+    margin-bottom: 0px;
+    right: 0px;
+    z-index: 4;
+    margin-top: 14vw;
+    position: absolute;
+    width: 120px;
+  }
+
+  .rompe2 {
+    display: none;
+  }
+
+  .rompe4 {
+    display: none;
+  }
+
+  .divTextDos {
+    z-index: 5;
+    width: auto;
+    position: absolute;
+    left: 60px;
+    margin-top: 56%;
+  }
+
+  .linkC {
+    width: 300px;
+    z-index: 2;
+    margin-top: 366px;
+    position: absolute;
+    left: 12%;
+  }
+
+  /* //tecnologia// */
+  .fondoBtecno {
+    z-index: 3;
+    left: 2%;
+    opacity: 1;
+    width: 340px;
+    margin-top: 0px;
+    height: 300px;
+    position: absolute;
+  }
+
+  .elem2 {
+    display: none;
+  }
+
+  .elem5 {
+    width: 180px;
+    right: 10px;
+    z-index: 8;
+    margin-top: 140vw;
+  }
+
+  .elem4 {
+    margin-top: 150vw;
+    position: absolute;
+    left: 0%;
+    width: 220px;
+  }
+
+  .divTextecno {
+    z-index: 5;
+    width: 70%;
+    left: 60px;
+    position: absolute;
+    margin-top: 12%;
+  }
+
+  .headT {
+    height: 280px;
+    z-index: 4;
+    width: 280px;
+    position: absolute;
+    left: 6%;
+    margin-top: -4%;
+  }
+
+  .linkTecno {
+    width: 320px;
+    right: 8%;
+    margin-top: 58vw;
+    position: absolute;
+  }
+
+  .elem1 {
+    position: absolute;
+    right: 6%;
+    margin-top: 60px;
+    width: 240px;
+  }
+
+  .elem6 {
+    display: none;
+  }
+
+  .mySlides {
+    width: 220%;
+    height: 500px;
+    margin-top: 20%;
+    margin-left: -56%;
+  }
+
+  .fondos02 {
+    z-index: 4;
+    margin-top: 124px;
+    height: 80px;
+    margin-left: -4%;
+    position: absolute;
+  }
+
+  #divA {
+    display: block !important;
+  }
+
+  .section2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 900px;
+  }
+
+  .headC {
+    position: absolute;
+    left: 0%;
+    margin-top: 36%;
+  }
+
+  #sct {
+    height: 640px;
+    padding-top: 0px;
+  }
+
+  /* //educacion// */
+  .fondoEd {
+    z-index: 2;
+    height: 360px;
+    margin-top: 0px;
+    right: 34px;
+    width: 340px;
+    position: absolute;
+  }
+
+  .divTextEd {
+    z-index: 4;
+    right: 0px;
+    left: 100px;
+    width: 82%;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 48px;
+  }
+
+  .sectionEd {
+    margin-bottom: 80px;
+    margin-top: 0px;
+  }
+
+  .linkEduca {
+    width: 260px;
+    right: 8%;
+    z-index: -1;
+    margin-top: 260px;
+    position: absolute;
+  }
+
+  .lupa {
+    margin-top: 520px;
+    width: 240px;
+    right: -40px;
+    z-index: 8;
+    position: absolute;
+  }
+
+  .anteojos {
+    position: absolute;
+    margin-top: 0px;
+    left: 0px;
+    width: 220px;
+  }
+
+  .celu {
+    margin-bottom: 0px;
+    position: absolute;
+    right: -20px;
+    width: 200px;
+    margin-top: 80px;
+  }
+
+  .lapicero {
+    display: none;
+  }
+
+  .fondoEduca {
+    z-index: 3;
+    width: 300px;
+    height: 330px;
+    margin-top: -4%;
+    /* height: 280px; */
+    margin-left: 8%;
+    position: absolute;
+  }
+
+  .textEd {
+    margin-top: 230px;
+  }
+
+  /* //transparencia// */
+  .fondoTran1 {
+    z-index: 2;
+    height: 280px;
+    margin-top: 100px;
+    left: 0%;
+    width: 340px;
+    position: absolute;
+  }
+
+  .divTextTran {
+    z-index: 10;
+    width: 80%;
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 38%;
+  }
+
+  .fondoTran {
+    width: 320px;
+    z-index: 7;
+    height: 282px;
+    margin-top: 62px;
+    right: 8%;
+    position: absolute;
+  }
+
+  .adn1 {
+    position: absolute;
+    right: 0px;
+    margin-top: 300px;
+    width: 300px;
+  }
+
+  .adn2 {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    margin-top: -14px;
+  }
+
+  .adn3 {
+    display: none;
+  }
+
+  .adn4 {
+    display: none;
+  }
+
+  .cel1 {
+    position: absolute;
+    /* left: 30%; */
+    right: 26px;
+    margin-top: 40%;
+    width: 40px;
+  }
+
+  .fondoTran {
+    width: 320px;
+    z-index: 7;
+    height: 282px;
+    margin-top: 62px;
+    right: 8%;
+    position: absolute;
+  }
+
+  .linkTran {
+    width: 340px;
+    right: 4%;
+    z-index: 2;
+    margin-top: 86%;
+    position: absolute;
+  }
+
+  .cel3 {
+    position: absolute;
+    right: 0px;
+    width: 220px;
+    margin-top: 0%;
+  }
+
+  /* //equipo// */
+  #sectionEquipo {
+    padding-top: 0px;
+  }
+
+  .fondoEquipo {
+    z-index: -1;
+    height: 310px;
+    margin-top: 60%;
+    left: 0%;
+    width: 320px;
+    position: absolute;
+  }
+
+  .divTextEquipo {
+    z-index: 4;
+    width: 80%;
+    position: absolute;
+    left: 16%;
+    margin-top: 70%;
+  }
+
+  .globos {
+    display: none;
+  }
+
+  .fondoEquipo1 {
+    width: 300px;
+    z-index: 3;
+    height: 290px;
+    margin-top: 53%;
+    margin-left: 0%;
+    position: absolute;
+  }
+
+  .taza {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    margin-top: 14%;
+  }
+
+  .arrow {
+    position: absolute;
+    z-index: 8;
+    /* right: 27%; */
+    margin-left: 24%;
+    width: 140px;
+    margin-top: 44%;
+  }
+
+  .foco {
+    display: none;
+  }
+
+  .lista {
+    position: absolute;
+    left: 20px;
+    margin-top: 168%;
+    width: 120px;
+  }
+
+  .robot {
+    position: absolute;
+    right: 0;
+    width: 140px;
+    margin-top: 164%;
+  }
+
+  .laptop {
+    position: absolute;
+    margin-top: 0px;
+    width: 200px;
+    left: 44%;
+  }
+
+  .linkEquipo {
+    width: 320px;
+    left: 4%;
+    z-index: -3;
+    margin-top: 134%;
+  }
+
+  .tCred {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    line-height: 28px;
+    font-weight: 900;
+    font-size: 22px;
+  }
+
+  .pCred {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  #sectionEquipo {
+    height: 800px;
+    padding-top: 0px;
+  }
+
+  .divF {
+    padding-top: 60px;
+  }
+
+  .clip {
+    position: absolute;
+    margin-top: 40%;
+    left: 4%;
+    width: 120px;
+  }
+
+  .sectionTrans {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:420px) {
+  .sectionTrans {
+    margin-top: 0px;
+  }
+
+  #container {
+    display: none;
+  }
+
+  .ifr {
+    width: 100%;
+    height: 360px;
+  }
+
+  .sectionTransp {
+    margin-top: 0%;
+  }
+
+  #bk-m {
+    overflow: hidden;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sectionTecno {
+    margin-top: 0px;
+    height: 900px;
   }
 
   .nubes {
@@ -2002,6 +2605,7 @@ li.layer:nth-child(11) a {
   .section2 {
     margin-top: 0px;
     padding-top: 0px;
+    height: 900px;
   }
 
   .headC {
@@ -2036,7 +2640,7 @@ li.layer:nth-child(11) a {
   }
 
   .sectionEd {
-    margin-bottom: 220px;
+    margin-bottom: 80px;
     margin-top: 0px;
   }
 
@@ -2100,7 +2704,7 @@ li.layer:nth-child(11) a {
   }
 
   .divTextTran {
-    z-index: 4;
+    z-index: 10;
     width: 80%;
     position: absolute;
     margin-left: 18%;
