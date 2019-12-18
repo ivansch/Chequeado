@@ -507,7 +507,7 @@ body {
 .divTextecno {
   z-index: 5;
   width: 264px;
-  left: 20%;
+  left: 18%;
   position: absolute;
   /* margin-left: 16%; */
   margin-top: 62px;
@@ -1670,6 +1670,14 @@ li.layer:nth-child(11) a {
     padding-top: 0px;
     height: 1100px;
   }
+.divTextecno {
+  z-index: 5;
+  width: 264px;
+  left: 16%;
+  position: absolute;
+  /* margin-left: 16%; */
+  margin-top: 62px;
+}
 }
 
 @media (max-width:1740px) {
