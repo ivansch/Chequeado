@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no">
-  <title></title>
+  <title>Chequeado - Especial 2019</title>
+  <link rel="icon" href="assets/transiciones/Desinforma_00051.png" type="image/png" sizes="24x24">
   <link rel="stylesheet" href="master.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -32,21 +33,18 @@
           <p class="pCred">Iván Schmitt - Desarrollo</p>
         </div>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- Button trigger modal -->
 
 
       <!-- Modal -->
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content" id="modalC">
+      <div class="modal fade" id="youtubeVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div id="modal-dialog" class="modal-dialog">
+          <div id="modal-content" class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="closeB" aria-hidden="true">&times;</span></button>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/b-BvDUZDuv8" frameborder="0" allow=" autoplay" allowfullscreen></iframe>
+              <iframe class="ifr" src="https://www.youtube.com/embed/b-BvDUZDuv8" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -357,15 +355,14 @@
           <div class="divText">
             <img class="anti" src="assets/elements/Anti.png" alt="">
             <h2 class="tit">Desinformación</h2>
-            <p class="pText">Logramos lo inpensado unir a más de <b class="boldT">120 medios</b> de todo el país, de las más diversas lineas editoriales y tamaños, contra la desinformación durante la campaña electoral. El resultado: <b
-                class="boldT">Reverso</b>,
+            <p class="pText">Logramos lo inpensado unir a más de <b class="boldT">120 medios</b> de todo el país, de las más diversas lineas editoriales y tamaños, contra la desinformación durante la campaña electoral. El resultado: <b class="boldT">Reverso</b>,
               el primer y más ambicioso proyecto <b class="boldT">colaborativo</b> de la Argentina.</p>
           </div>
           <img class="fondo02 inline-photo show-on-scroll" src="assets/elements/Graphics_01.png" />
           <img class="fondo01 inline-photo show-on-scroll" src="assets/elements/FondoText.png" />
-          <img class="reverso inline-photo show-on-scroll" src="assets/elements/Reverso_00.png" />
+          <a href="https://reversoar.com/la-campana-deeptruth-recibio-tres-premios-del-circulo-de-creativos-argentinos/" target="_blank"><img class="reverso inline-photo show-on-scroll" src="assets/elements/Reverso_00.png" /></a>
         </div>
-        <img data-toggle="modal" data-target="#myModal" class="link inline-photo show-on-scroll" src="assets/elements/Link_00.png" />
+        <img data-toggle="modal" data-target="#youtubeVideo" class="link inline-photo show-on-scroll" src="assets/elements/Link_00.png" />
 
         <img class="pez inline-photo show-on-scroll" src="assets/elements/Pez_00.png" />
         <img class="diario inline-photo show-on-scroll" src="assets/elements/Diario.png" />
@@ -388,7 +385,8 @@
 
           <img class="headC inline-photo show-on-scroll" src="assets/comunidad/Graphics_00.png" />
           <img class="fondosComuni inline-photo show-on-scroll" src="assets/elements/FondoText.png" />
-            <img class="linkC inline-photo show-on-scroll" src="assets/comunidad/link_00.png" />
+          <a href="https://www.chequeado.com/chequeadistas/" target="_blank">
+            <img class="linkC inline-photo show-on-scroll" src="assets/comunidad/link_00.png" /></a>
         </div>
       </section>
 
@@ -432,7 +430,7 @@
           </div>
           <img class="fondoEduca inline-photo show-on-scroll" src="assets/education/Graphics_00.png" />
           <img class="fondoEd inline-photo show-on-scroll" src="assets/elements/FondoText.png" />
-          <img class="linkEduca inline-photo show-on-scroll" src="assets/education/LinkEduca.png" />
+          <a href="https://www.instagram.com/medioflash/" target="_blank"><img class="linkEduca inline-photo show-on-scroll" src="assets/education/LinkEduca.png" /></a>
         </div>
       </section>
       <section class="sectionTrans wrapper">
@@ -450,12 +448,13 @@
         <div class="divFlexs sectionTransp">
           <div class="divTextTran">
             <h2 class="tit">Transparencia</h2>
-            <p class="pText">Porque defendemos el acceso a la información y la apertura de datos, nuestros fondos y fuentes de <b class="boldT">financiamiento</b> son públicos, al igual que nuestro <b class="boldT">método</b>.</p>
+            <p class="pText">Porque defendemos el acceso a la información y la apertura de datos, nuestros fondos y fuentes de <a target="_blank" href="https://chequeado.com/financiamiento/" class="boldT">financiamiento</a> son públicos, al
+              igual que nuestro <b class="boldT">método</b>.</p>
           </div>
           <img class="fondoTran inline-photo show-on-scroll" src="assets/trans/Graphics_00.png" />
           <img class="fondoTran1 inline-photo show-on-scroll" src="assets/elements/FondoText.png" />
         </div>
-        <img class="linkTran inline-photo show-on-scroll" src="assets/trans/LinkTransp_00.png" />
+        <a href="https://chequeado.com/metodo/" target="_blank"><img class="linkTran inline-photo show-on-scroll" src="assets/trans/LinkTransp_00.png" /></a>
       </section>
       <section id="sectionEquipo" class="wrapper">
         <!-- <img class="revis01" src="assets/elements/Revis_01.png" /> -->
@@ -477,14 +476,16 @@
           <img class="fondoEquipo1 inline-photo show-on-scroll" src="assets/equipo/Graphics_00.png" />
           <img class="fondoEquipo inline-photo show-on-scroll" src="assets/elements/FondoText.png" />
         </div>
-        <a href="https://chequeado.com/equipo/"> <img class="linkEquipo inline-photo show-on-scroll" src="assets/equipo/Equipo_00.png" /></a>
+        <a href="https://chequeado.com/equipo/" target="_blank"> <img class="linkEquipo inline-photo show-on-scroll" src="assets/equipo/Equipo_00.png" /></a>
       </section>
 
     </section>
 
 
   </main>
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script type="text/javascript" src="app.js" charset="utf-8"></script>
 </body>
 
