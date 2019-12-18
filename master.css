@@ -311,7 +311,7 @@ body {
   width: 300px;
   position: absolute;
   margin-left: 58%;
-  margin-top: -40px;
+  margin-top: 0px;
 }
 
 .divTextEquipo {
@@ -319,13 +319,15 @@ body {
   width: 284px;
   position: absolute;
   left: 16%;
-  margin-top: 25%;
+  margin-top: 27%;
 }
 
 .fondoEquipo1 {
   width: 420px;
   z-index: 3;
-  margin-top: 20%;
+  margin-top: 0%;
+  margin-top: 17%;
+  height: 350px;
   margin-left: 8%;
   position: absolute;
 }
@@ -349,8 +351,9 @@ body {
 
 .anti {
   position: absolute;
-  width: 76px;
-  margin-top: 0px;
+  width: 66px;
+  margin-left: 6px;
+  margin-top: -8px;
 }
 
 .pText {
@@ -507,7 +510,7 @@ body {
   left: 20%;
   position: absolute;
   /* margin-left: 16%; */
-  margin-top: 40px;
+  margin-top: 62px;
 }
 
 #sct {
@@ -661,7 +664,7 @@ body {
   width: 300px;
   position: absolute;
   right: 194px;
-  margin-top: -30px;
+  margin-top: -4px;
 }
 
 .fondoEd {
@@ -759,11 +762,11 @@ body {
 }
 
 .headT {
-  height: 264px;
+  height: 294px;
   z-index: 4;
   position: absolute;
   left: 10%;
-  margin-top: -1%;
+  margin-top: -2%;
 }
 
 .rompe4 {
@@ -1308,7 +1311,7 @@ li.layer:nth-child(11) a {
 
 .fondo01 {
   z-index: 2;
-  height: 340px;
+  height: 360px;
   margin-top: -82px;
   left: 49%;
   width: 490px;
@@ -1380,7 +1383,7 @@ li.layer:nth-child(11) a {
   width: 260px;
   position: absolute;
   margin-left: 62%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .fondoTran1 {
@@ -1990,7 +1993,7 @@ li.layer:nth-child(11) a {
   .linkTecno {
     width: 320px;
     right: 8%;
-    margin-top: 58vw;
+    margin-top: 68vw;
     position: absolute;
   }
 
@@ -2580,7 +2583,7 @@ li.layer:nth-child(11) a {
   .linkTecno {
     width: 320px;
     right: 8%;
-    margin-top: 58vw;
+    margin-top: 68vw;
     position: absolute;
   }
 
@@ -2720,7 +2723,7 @@ li.layer:nth-child(11) a {
     width: 80%;
     position: absolute;
     margin-left: 18%;
-    margin-top: 38%;
+    margin-top: 42%;
   }
 
   .fondoTran {
@@ -2796,7 +2799,7 @@ li.layer:nth-child(11) a {
     height: 310px;
     margin-top: 60%;
     left: 0%;
-    width: 320px;
+    width: 350px;
     position: absolute;
   }
 
@@ -2805,7 +2808,7 @@ li.layer:nth-child(11) a {
     width: 80%;
     position: absolute;
     left: 16%;
-    margin-top: 70%;
+    margin-top: 74%;
   }
 
   .globos {
@@ -2813,10 +2816,10 @@ li.layer:nth-child(11) a {
   }
 
   .fondoEquipo1 {
-    width: 300px;
+    width: 293px;
     z-index: 3;
-    height: 290px;
-    margin-top: 53%;
+    height: 340px;
+    margin-top: 48%;
     margin-left: 0%;
     position: absolute;
   }
