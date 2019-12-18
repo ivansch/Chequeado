@@ -1670,14 +1670,15 @@ li.layer:nth-child(11) a {
     padding-top: 0px;
     height: 1100px;
   }
-.divTextecno {
-  z-index: 5;
-  width: 264px;
-  left: 16%;
-  position: absolute;
-  /* margin-left: 16%; */
-  margin-top: 62px;
-}
+
+  .divTextecno {
+    z-index: 5;
+    width: 264px;
+    left: 16%;
+    position: absolute;
+    /* margin-left: 16%; */
+    margin-top: 62px;
+  }
 }
 
 @media (max-width:1740px) {
@@ -1705,14 +1706,16 @@ li.layer:nth-child(11) a {
     position: relative;
     z-index: 2;
   }
-.divTextecno {
-  z-index: 5;
-  width: 264px;
-  left: 18%;
-  position: absolute;
-  /* margin-left: 16%; */
-  margin-top: 62px;
-}
+
+  .divTextecno {
+    z-index: 5;
+    width: 264px;
+    left: 18%;
+    position: absolute;
+    /* margin-left: 16%; */
+    margin-top: 62px;
+  }
+
   #sectionEquipo {
     padding-top: 400px;
     height: 1186px;
@@ -2324,6 +2327,8 @@ li.layer:nth-child(11) a {
 
   .divF {
     padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .clip {
@@ -2430,11 +2435,11 @@ li.layer:nth-child(11) a {
 
   .divText {
     z-index: 4;
-    width: 84%;
+    width: 81%;
     left: 10px;
     position: absolute;
     margin-left: 12%;
-    margin-top: 40%;
+    margin-top: 43%;
   }
 
   .anti {
@@ -2894,7 +2899,7 @@ li.layer:nth-child(11) a {
     color: white;
     line-height: 28px;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .pCred {
@@ -2904,7 +2909,7 @@ li.layer:nth-child(11) a {
     color: white;
     line-height: 28px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   #sectionEquipo {
@@ -2914,6 +2919,8 @@ li.layer:nth-child(11) a {
 
   .divF {
     padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .clip {
