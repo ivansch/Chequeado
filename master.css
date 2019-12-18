@@ -1797,7 +1797,7 @@ li.layer:nth-child(11) a {
     height: 310px;
     margin-top: 30%;
     left: 0%;
-    width: 340px;
+    width: 380px;
     position: absolute;
   }
 
@@ -1946,7 +1946,7 @@ li.layer:nth-child(11) a {
     z-index: 3;
     left: 2%;
     opacity: 1;
-    width: 340px;
+    width: 380px;
     margin-top: 0px;
     height: 300px;
     position: absolute;
@@ -2047,7 +2047,7 @@ li.layer:nth-child(11) a {
     height: 360px;
     margin-top: 0px;
     right: 34px;
-    width: 340px;
+    width: 380px;
     position: absolute;
   }
 
@@ -2058,7 +2058,7 @@ li.layer:nth-child(11) a {
     width: 82%;
     position: absolute;
     margin-left: 0%;
-    margin-top: 48px;
+    margin-top: 72px;
   }
 
   .sectionEd {
@@ -2177,7 +2177,7 @@ li.layer:nth-child(11) a {
     z-index: 7;
     height: 282px;
     margin-top: 62px;
-    right: 8%;
+    right: 24%;
     position: absolute;
   }
 
@@ -2206,7 +2206,7 @@ li.layer:nth-child(11) a {
     height: 310px;
     margin-top: 60%;
     left: 0%;
-    width: 320px;
+    width: 380px;
     position: absolute;
   }
 
@@ -2215,7 +2215,7 @@ li.layer:nth-child(11) a {
     width: 80%;
     position: absolute;
     left: 16%;
-    margin-top: 70%;
+    margin-top: 74%;
   }
 
   .globos {
@@ -2318,6 +2318,12 @@ li.layer:nth-child(11) a {
   .sectionTrans {
     margin-top: 0px;
   }
+
+  .anti {
+    position: absolute;
+    width: 46px;
+    margin-top: -6px;
+  }
 }
 
 @media (max-width:420px) {
@@ -2411,6 +2417,12 @@ li.layer:nth-child(11) a {
     position: absolute;
     margin-left: 12%;
     margin-top: 40%;
+  }
+
+  .anti {
+    position: absolute;
+    width: 46px;
+    margin-top: -6px;
   }
 
   .radios {
@@ -2522,11 +2534,11 @@ li.layer:nth-child(11) a {
   /* //tecnologia// */
   .fondoBtecno {
     z-index: 3;
-    left: 2%;
+    left: 0%;
     opacity: 1;
-    width: 340px;
+    width: 350px;
     margin-top: 0px;
-    height: 300px;
+    height: 320px;
     position: absolute;
   }
 
@@ -2553,16 +2565,16 @@ li.layer:nth-child(11) a {
     width: 70%;
     left: 60px;
     position: absolute;
-    margin-top: 12%;
+    margin-top: 16%;
   }
 
   .headT {
-    height: 280px;
+    height: 310px;
     z-index: 4;
     width: 280px;
     position: absolute;
     left: 6%;
-    margin-top: -4%;
+    margin-top: -6%;
   }
 
   .linkTecno {
@@ -2624,8 +2636,8 @@ li.layer:nth-child(11) a {
     z-index: 2;
     height: 360px;
     margin-top: 0px;
-    right: -20px;
-    width: 340px;
+    right: 0px;
+    width: 350px;
     position: absolute;
   }
 
@@ -2636,7 +2648,7 @@ li.layer:nth-child(11) a {
     width: 82%;
     position: absolute;
     margin-left: 0%;
-    margin-top: 48px;
+    margin-top: 66px;
   }
 
   .sectionEd {
