@@ -1650,8 +1650,8 @@ li.layer:nth-child(11) a {
   }
 
   #sectionEquipo {
-    padding-top: 400px;
-    height: 1186px;
+    padding-top: 0px;
+    height: 1100px;
   }
 }
 
