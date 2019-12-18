@@ -1671,13 +1671,36 @@ li.layer:nth-child(11) a {
     height: 1100px;
   }
 
+  .divTextEquipo {
+    z-index: 4;
+    width: 284px;
+    position: absolute;
+    left: 15%;
+    margin-top: 22%;
+  }
+
   .divTextecno {
     z-index: 5;
     width: 264px;
     left: 16%;
     position: absolute;
-    /* margin-left: 16%; */
     margin-top: 62px;
+  }
+
+  .divTextTran {
+    z-index: 10;
+    width: 260px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 30px;
+  }
+
+  .divTextDos {
+    z-index: 5;
+    width: 220px;
+    position: absolute;
+    left: 300px;
+    margin-top: -16px;
   }
 }
 
@@ -1689,8 +1712,40 @@ li.layer:nth-child(11) a {
     z-index: 2;
   }
 
+  .divTextTran {
+    z-index: 10;
+    width: 260px;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 30px;
+  }
+
+  .divTextDos {
+    z-index: 5;
+    width: 220px;
+    position: absolute;
+    left: 280px;
+    margin-top: -16px;
+  }
+
+  .divTextEquipo {
+    z-index: 4;
+    width: 284px;
+    position: absolute;
+    left: 16%;
+    margin-top: 23%;
+  }
+
   .sectionTrans {
     margin-top: 0px;
+  }
+
+  .divTextecno {
+    z-index: 5;
+    width: 264px;
+    left: 18%;
+    position: absolute;
+    margin-top: 62px;
   }
 
   #sectionEquipo {
@@ -1705,6 +1760,22 @@ li.layer:nth-child(11) a {
     height: 132vw;
     position: relative;
     z-index: 2;
+  }
+
+  .divTextTran {
+    z-index: 10;
+    width: 260px;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 30px;
+  }
+
+  .divTextDos {
+    z-index: 5;
+    width: 220px;
+    position: absolute;
+    left: 260px;
+    margin-top: -16px;
   }
 
   .divTextecno {
