@@ -1705,7 +1705,14 @@ li.layer:nth-child(11) a {
     position: relative;
     z-index: 2;
   }
-
+.divTextecno {
+  z-index: 5;
+  width: 264px;
+  left: 18%;
+  position: absolute;
+  /* margin-left: 16%; */
+  margin-top: 62px;
+}
   #sectionEquipo {
     padding-top: 400px;
     height: 1186px;
