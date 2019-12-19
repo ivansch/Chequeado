@@ -76,12 +76,22 @@ img {
 
 .pCred {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   text-align: center;
   color: white;
   line-height: 28px;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 12px;
+}
+
+.pCreds {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2px;
+  text-align: center;
+  color: white;
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .tCred {
@@ -91,7 +101,7 @@ img {
   color: white;
   line-height: 28px;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .parallax-layer {
@@ -387,7 +397,7 @@ body {
 
 .tit {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
   font-weight: 900;
   font-style: italic;
   font-size: 38px;
@@ -611,6 +621,14 @@ body {
   position: absolute;
   margin-top: 90px;
   margin-left: 30%;
+}
+
+.premio {
+  width: 120px;
+  z-index: 5;
+  position: absolute;
+  margin-top: 90px;
+  right: 120px;
 }
 
 .megafono {
@@ -1374,7 +1392,16 @@ li.layer:nth-child(11) a {
   right: 15%;
   z-index: 6;
   cursor: pointer;
-  margin-top: 14%;
+  margin-top: 16%;
+  position: absolute;
+}
+
+.linkTran2 {
+  width: 340px;
+  left: 10%;
+  z-index: 6;
+  cursor: pointer;
+  margin-top: 10%;
   position: absolute;
 }
 
@@ -1404,12 +1431,12 @@ li.layer:nth-child(11) a {
 }
 
 .reverso {
-  width: 240px;
+  width: 180px;
   opacity: 1;
   z-index: 3;
-  margin-top: 180px;
+  margin-top: 200px;
   position: absolute;
-  margin-left: 68%;
+  margin-left: 56%;
 }
 
 @-webkit-keyframes slideInDown {
@@ -1762,6 +1789,14 @@ li.layer:nth-child(11) a {
     z-index: 2;
   }
 
+  .divTextEquipo {
+    margin-top: 26%;
+  }
+
+  .linkEduca {
+    margin-top: 14vw;
+  }
+
   .divTextTran {
     z-index: 10;
     width: 260px;
@@ -1805,6 +1840,15 @@ li.layer:nth-child(11) a {
     margin-top: 100px;
   }
 
+  .fondoEduca {
+    width: 320px;
+    z-index: 3;
+    margin-top: -82px;
+    margin-left: 64%;
+    height: 330px;
+    position: absolute;
+  }
+
   .linkEquipo {
     margin-top: 36vw;
   }
@@ -1816,6 +1860,14 @@ li.layer:nth-child(11) a {
 }
 
 @media (max-width:480px) {
+  .premio {
+    width: 120px;
+    z-index: 5;
+    position: absolute;
+    margin-top: 154%;
+    left: 0px;
+  }
+
   .divTextEquipo {
     z-index: 4;
     width: 68%;
@@ -2372,23 +2424,15 @@ li.layer:nth-child(11) a {
   }
 
   .tCred {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
-    line-height: 28px;
-    font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .pCred {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
-    line-height: 28px;
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 12px;
+  }
+
+  .pCreds {
+    font-size: 16px;
   }
 
   #sectionEquipo {
@@ -2413,10 +2457,19 @@ li.layer:nth-child(11) a {
     margin-top: 0px;
   }
 
+  .linkTran {
+    width: 294px;
+  }
+
   .anti {
     position: absolute;
     width: 46px;
     margin-top: -6px;
+  }
+
+  .linkTran2 {
+    width: 294px;
+    margin-top: 144%;
   }
 }
 
@@ -2964,23 +3017,15 @@ li.layer:nth-child(11) a {
   }
 
   .tCred {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
-    line-height: 28px;
-    font-weight: 900;
     font-size: 20px;
   }
 
   .pCred {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
-    line-height: 28px;
-    font-weight: 400;
-    font-size: 14px;
+    font-size: 10px;
+  }
+
+  .pCreds {
+    font-size: 16px;
   }
 
   #sectionEquipo {
@@ -3000,4 +3045,20 @@ li.layer:nth-child(11) a {
     left: 4%;
     width: 120px;
   }
+}
+@media (max-width:360px){
+  .linkTran2 {
+    width: 294px;
+    left: 10%;
+    z-index: 6;
+    cursor: pointer;
+    margin-top: 164%;
+    position: absolute;
+}
+.linkTran {
+    right: 4%;
+    z-index: 2;
+    margin-top: 100%;
+    position: absolute;
+}
 }
