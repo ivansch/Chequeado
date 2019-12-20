@@ -146,7 +146,7 @@ if (!isMobile) {
 //animation png
 var myIndex = 0;
 
-setTimeout(carousel, 40);
+setTimeout(carousel, 0);
 
 function carousel() {
   var i;
@@ -154,12 +154,12 @@ function carousel() {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  if (myIndex < 34) {
+  if (myIndex < 31) {
     myIndex++;
   }
   x[myIndex].style.display = "block";
   // x[14].style.display = "block";
-  setTimeout(carousel, 40);
+  setTimeout(carousel, 0);
   // Change image every 2 seconds
 }
 
@@ -786,7 +786,6 @@ var parallax5 = new Parallax(scene5);
 
 // selector
 var menu = document.querySelector('.hamburger');
-var close = document.querySelector('.close');
 
 // method
 function toggleMenu(event) {
@@ -794,14 +793,9 @@ function toggleMenu(event) {
   document.querySelector(".menuppal").classList.toggle("is_active");
   event.preventDefault();
 }
-function toggleMenus(event) {
-  this.classList.toggle('is-active');
-  document.querySelector(".menuppal").classList.toggle("is_active");
-  event.preventDefault();
-}
+
 // event
 menu.addEventListener('click', toggleMenu, false);
-close.addEventListener('click', toggleMenus, false);
 
 //Solución con jQUery
 /*$(document).ready(function(){
@@ -811,9 +805,12 @@ close.addEventListener('click', toggleMenus, false);
 		return false;
 	});
 });*/
-$('#myModal').on('shown.bs.modal', function() {
-  $('#video1')[0].play();
-})
-$('#myModal').on('hidden.bs.modal', function() {
-  $('#video1')[0].pause();
-})
+
+$(document).ready(function() {
+  $('#youtubeVideo').on('hidden.bs.modal', function() {
+    var $this = $(this).find('iframe'),
+      tempSrc = $this.attr('src');
+    $this.attr('src', "");
+    $this.attr('src', tempSrc);
+  });
+});
