@@ -786,6 +786,7 @@ var parallax5 = new Parallax(scene5);
 
 // selector
 var menu = document.querySelector('.hamburger');
+var close = document.querySelector('.close');
 
 // method
 function toggleMenu(event) {
@@ -793,9 +794,14 @@ function toggleMenu(event) {
   document.querySelector(".menuppal").classList.toggle("is_active");
   event.preventDefault();
 }
-
+function toggleMenus(event) {
+  this.classList.toggle('is-active');
+  document.querySelector(".menuppal").classList.toggle("is_active");
+  event.preventDefault();
+}
 // event
 menu.addEventListener('click', toggleMenu, false);
+close.addEventListener('click', toggleMenus, false);
 
 //Solución con jQUery
 /*$(document).ready(function(){
