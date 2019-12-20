@@ -117,10 +117,10 @@ body {
 .hamburger {
   position: fixed;
   background-color: transparent;
-  right: 20px;
+  right: 20px !important;
   top: 0;
   height: 30px;
-  width: 30px;
+  width: 24px;
   padding: 20px 20px;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
