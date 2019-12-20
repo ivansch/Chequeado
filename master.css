@@ -117,7 +117,7 @@ body {
 	width:46px;
 	}
 .hamburger {
-  position: fixed;
+  position: absolute;
   background-color: transparent;
   right: 46px !important;
   top: 0;
