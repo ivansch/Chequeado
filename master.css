@@ -2259,13 +2259,14 @@ li.layer:nth-child(11) a {
     position: absolute;
   }
 
-  .lupa {
-    margin-top: 520px;
-    width: 240px;
-    right: -40px;
+lupa {
+    margin-top: 630px;
+    width: 160px;
+    right: -60px;
+    height: 160px;
     z-index: 8;
     position: absolute;
-  }
+}
 
   .anteojos {
     position: absolute;
@@ -2852,13 +2853,14 @@ li.layer:nth-child(11) a {
     position: absolute;
   }
 
-  .lupa {
-    margin-top: 520px;
-    width: 240px;
-    right: -40px;
+  lupa {
+    margin-top: 630px;
+    width: 160px;
+    right: -60px;
+    height: 160px;
     z-index: 8;
     position: absolute;
-  }
+}
 
   .anteojos {
     position: absolute;
