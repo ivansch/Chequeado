@@ -91,17 +91,17 @@ img {
   color: white;
   line-height: 28px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .tCred {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: center;
   color: white;
   line-height: 28px;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .parallax-layer {
@@ -2466,15 +2466,15 @@ lupa {
   }
 
   .tCred {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pCred {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .pCreds {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   #sectionEquipo {
@@ -3060,15 +3060,15 @@ lupa {
   }
 
   .tCred {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pCred {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .pCreds {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   #sectionEquipo {
