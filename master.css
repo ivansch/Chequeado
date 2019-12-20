@@ -137,6 +137,7 @@ body {
 }
 
 .hamburger.is-active {
+	display:none;
   background-color: none;
 }
 
