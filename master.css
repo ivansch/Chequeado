@@ -236,7 +236,14 @@ body {
   left: 24.6184%;
   margin-left: -233.874px;
 }
-
+.closer{
+    font-size: 30px;
+    border: 0;
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 200;
+	}
 .parallax2 {
   width: 900px;
   height: 573px;
