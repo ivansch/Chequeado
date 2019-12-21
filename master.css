@@ -1917,7 +1917,10 @@ li.layer:nth-child(11) a {
     margin-top: 154%;
     left: 0px;
   }
-
+.lupa{
+    width: 112px;
+    margin-top: 660px;
+  }
   .divTextEquipo {
     z-index: 4;
     width: 68%;
