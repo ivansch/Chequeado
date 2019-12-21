@@ -1,4 +1,17 @@
 $(document).ready((function() {
+	// selector
+var menu = document.querySelector('.hamburger');
+var close = document.querySelector('.close');
+
+// method
+function toggleMenu(event) {
+  document.querySelector(".menuppal").classList.toggle("is_active");
+  event.preventDefault();
+}
+// event
+menu.addEventListener('click', toggleMenu, false);
+close.addEventListener('click', toggleMenu, false);
+	
   var pictureCount = $('#container img').length;
   var scrollResolution = 40;
 
@@ -784,22 +797,7 @@ var parallax4 = new Parallax(scene4);
 var parallax5 = new Parallax(scene5);
 
 
-// selector
-var menu = document.querySelector('.hamburger');
-var close = document.querySelector('.close');
 
-// method
-function toggleMenu(event) {
-  document.querySelector(".menuppal").classList.toggle("is_active");
-  event.preventDefault();
-}
-function toggleMenus(event) {
-  document.querySelector(".menuppal").classList.toggle("is_active");
-  event.preventDefault();
-}
-// event
-menu.addEventListener('click', toggleMenu, false);
-close.addEventListener('click', toggleMenus, false);
 
 //Solución con jQUery
 /*$(document).ready(function(){
