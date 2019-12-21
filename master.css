@@ -117,23 +117,24 @@ body {
 	width:46px;
 	}
 .hamburger {
-  position: absolute;
-  background-color: transparent;
-  right: 46px !important;
-  top: 0;
-  height: 30px;
-  width: 24px;
-  padding: 20px 20px;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
-  transition: transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
-  z-index: 0;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none
+    z-index: 106 !important;
+    position: absolute;
+    background-color: transparent;
+    right: 46px !important;
+    top: 0;
+    height: 80px;
+    width: 80px;
+    padding: 40px 20px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition: transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    z-index: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .hamburger.is-active {
