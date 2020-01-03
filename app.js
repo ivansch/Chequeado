@@ -167,7 +167,7 @@ function carousel() {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  if (myIndex < 52) {
+  if (myIndex < 51) {
     myIndex++;
   }
   x[myIndex].style.display = "block";
